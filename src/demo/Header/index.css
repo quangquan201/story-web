@@ -1,0 +1,49 @@
+header
+{	
+    background-color: #cfa6ea;
+}
+
+.logo
+{
+    height: 40px;
+    float: left;
+    margin: 8px;
+}
+.timkiem
+{
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+	width: 50%;
+	max-width: 600px;
+	min-width: 200px;
+	border: 1.5px solid;
+}
+.dangky
+{
+	font-family: quicksan-medium;
+	float: right;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+	border: solid 1.5px #000000;
+	background-color: #cfa6ea;
+	cursor: pointer;
+	min-width: 100px;
+	min-height: 30px;
+}
+.dangnhap
+{
+	font-family: quicksan-medium;
+	float: right;
+	border-radius: 15px;
+	padding: 6px;
+	margin: 10px;
+	background-color: #bd3ec6;
+	border: 0px;
+	color: white;
+	cursor: pointer;
+	min-width: 100px;
+	min-height: 30px;
+}

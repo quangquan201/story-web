@@ -1,0 +1,91 @@
+#Content{
+	display: grid;
+	grid-template-areas:
+		"header header header"
+		"aside article article"
+		"aside content content"
+		"foot foot foot";
+	grid-gap: 20px;
+}
+header{grid-area: header;}
+aside{ grid-area: aside;}
+content{ grid-area: content;}
+article{ grid-area: article;}
+footer{ grid-area: foot;}
+
+h3
+{
+	color: #9927b2;
+}
+a
+{
+    text-decoration: none;
+}
+.truyen a
+{
+	color: #9927b2;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.theloai
+{
+	background-color:#dfccea;
+	padding: 10px;
+	height: 280px;
+	border-radius: 10px;
+}
+
+.theloai a
+{
+	color: black;
+	font-size: 18px;
+}
+
+dt
+{
+	padding: 15px;
+}
+dt:hover
+{
+    background-color: #c565cc;
+    border-radius: 5px;
+	cursor: pointer;
+    color: white;
+}
+.decu
+{
+	background-color: #e9deef;
+	padding: 10px;
+	border-radius: 10px;
+}
+.moi
+{
+	background-color:#F7CFFF;
+	padding: 10px;
+	border-radius: 10px;
+}
+.truyen
+{
+	float: left;
+	width: 150px;
+	margin: 10px;
+}
+.truyen:hover
+{
+    background-color: #B0B0B0;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+.anh
+{
+	width: 150px;
+	height: 180px;
+}
+.macute
+{
+	width: 30%;
+	margin: 10px;
+	border-radius: 10px;
+	float: left;
+}

@@ -1,0 +1,25 @@
+hr
+{
+    border: solid hsl(0, 0%, 60%);
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.left1
+{
+    float: left;
+    margin: 5px;
+}
+.left1 p
+{
+    margin: 5px;
+}
+.left2
+{
+    float: left;
+    cursor: pointer;
+}
+p
+{
+    color: white;
+}

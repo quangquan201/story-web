@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181515;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dinhdang
+{
+
+}
+
+.canhgiua
+{
+	max-width: 1240px;
+	margin: 0px auto;
+	height: 50px;
 }
